@@ -1,0 +1,51 @@
+/* FORM */
+
+input, select {
+    width: 100%;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;    
+    background-color: var(--secondary-color);
+}
+
+input[type="radio"]{
+    width: initial;
+    margin-right: 4px;
+}
+
+input::placeholder {
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+}
+
+button[type="submit"], a.button {
+    padding: 8px 32px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.salvar{
+    width: 100%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: row;
+    
+}
+
+a.button{
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+#form-delete button[type="submit"]{
+    background-color: lightcoral;
+    cursor: pointer;
+}

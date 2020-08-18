@@ -1,0 +1,47 @@
+{% extends "layout.njk" %}
+
+{% block styles %}
+    <link rel="stylesheet" href="/styles/card.css">
+    <link rel="stylesheet" href="/styles/input.css">
+    <link rel="stylesheet" href="/styles/index.css">
+{% endblock styles %}
+
+{% block head %}
+    <title>School - Index
+    </title>
+{% endblock head %}
+
+{% block content %}
+
+    <div class="card table-container">
+        <a href="/students/create">Novo</a>
+        <table width="100%">
+            <thead>
+                <tr>
+                    <th>Estudantes</th>
+                    <th>Email</th>
+                    <th>Ano Escolar</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                {% for student in students %}
+                    <tr>
+                        <td>
+                            <span style="background-image: url({{student.avatar_url}})"></span>
+                            {{student.name}}</td>
+                        <td>{{student.email}}</td>
+                        <td>
+                            <span class="table-services">{{student.schoolyearn}}</span></td>
+                        <td>
+                            <a href="/students/{{student.id}}">ver</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+
+            </tbody>
+        </table>
+    </div>
+
+{% endblock content %}

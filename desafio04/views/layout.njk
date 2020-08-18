@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/links.css">
+    {% block styles %}
+    {% endblock styles %}
+
+    {% block head %}
+        <title>School</title>
+    {% endblock head %}
+
+</head>
+<body>
+
+    <header>
+        <img src="https://cdn.discordapp.com/attachments/405893702364430336/738781022627561613/unknown.png" alt="">
+        <div class="links">
+            <a href="/teachers">Professores</a>
+            <a href="/students">Estudantes</a>
+        </div>
+    </header>
+
+    {% block content %}
+    {% endblock content  %}
+
+    <script src="/scripts.js"></script>
+
+</body>
+</html>

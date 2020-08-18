@@ -1,0 +1,26 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "avatar_url": "https://scontent.fdou1-1.fna.fbcdn.net/v/t1.0-9/54433298_1474427676043705_4160029697121452032_o.jpg?_nc_cat=103&_nc_sid=09cbfe&_nc_eui2=AeEK1rujSGGxhst5zc0FgxOjyeWSM-aGrYrJ5ZIz5oatimy4xDQqeCH5eplSeC42tei_JehGsmkiYIIl0eE42ntW&_nc_ohc=WPUg6WZik-kAX9LBJhT&_nc_ht=scontent.fdou1-1.fna&oh=34833a5a72dc3dc461a0ef6ce2dc0273&oe=5F5FA585",
+      "name": "Arthur Barros",
+      "birth": 995155200000,
+      "classe": "A",
+      "select": "mestrado",
+      "services": "Programação",
+      "created_at": 1597326693124
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "avatar_url": "https://scontent.fdou1-1.fna.fbcdn.net/v/t1.0-9/84988508_2488337388054607_1447802946854060032_n.jpg?_nc_cat=104&_nc_sid=09cbfe&_nc_eui2=AeFveDrTads9PTPMrxMvz1igX02XG-JZqJ9fTZcb4lmonxWtUAZ6gjVge5QCaj6_CzuJbQPWCFOdGD_0d4FoysHP&_nc_ohc=huIjpJ0ERq8AX-E5zZN&_nc_ht=scontent.fdou1-1.fna&oh=9d87e7a830365d8fde31bda03f663695&oe=5F60CF61",
+      "name": "JOICE MARQUES BARROS ",
+      "birth": 632016000000,
+      "select": "2EM",
+      "weekly": "8",
+      "email": "joicebarroscba@gmail.com",
+      "schoolyearn": "2EM"
+    }
+  ]
+}
